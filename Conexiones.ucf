@@ -1,0 +1,19 @@
+NET "clk" LOC="E7";
+
+#NET "SAL1" LOC="C15";
+#NET "SAL2" LOC="E15";
+
+NET "DOWN" LOC="N2";
+#NET "DOWN" CLOCK_DEDICATED_ROUTE = FALSE;
+#
+NET "UP" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "UP" LOC="L1";
+
+NET "Salida(7)" LOC="M1";
+NET "Salida(6)" LOC="P1";
+NET "Salida(5)" LOC="R6";
+NET "Salida(4)" LOC="N8";
+NET "Salida(3)" LOC="R13";
+NET "Salida(2)" LOC="M3";
+NET "Salida(1)" LOC="N7";
+NET "Salida(0)" LOC="N9";
